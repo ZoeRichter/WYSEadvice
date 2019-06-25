@@ -92,9 +92,9 @@ Given: x = 2, y = 3 \nonumber \\
 \Delta = 7 \notag
 \end{align}
 
-\section{Python: I don't have a snappy one-liner}
+\section{Python: I Don't Have a Snappy One-Liner}
 
-Python is a very popular language.  It's free, open-source, and continually being updated and improved.  I would reccommend that anyone interested in a STEM major take the time to learn the basics.  You can find some lessons on software-carpentry, such as \href{http://swcarpentry.github.io/python-novice-inflammation/}{this one} or \href{http://swcarpentry.github.io/python-novice-gapminder/}{this one}.  Since you'll likely be reading this after first being exposed to MatLab, I'll point out a few differences.\\
+Python is a very popular language.  It's free, open-source, and continually being updated and improved.  I would recommend that anyone interested in a STEM major take the time to learn the basics.  You can find some lessons on software-carpentry, such as \href{http://swcarpentry.github.io/python-novice-inflammation/}{this one} or \href{http://swcarpentry.github.io/python-novice-gapminder/}{this one}.  Since you'll likely be reading this after first being exposed to MatLab, I'll point out a few differences.\\
 
 Python begins counting at 0.  MatLab starts at 1.  What does this mean?  Let's suppose you have a set of numbers, say $[2, 5, 8, 4, 7, 3]$.  Now, imagine that you need to ask your computer nicely to please give you the third number in the list - 8.  In python, this is:
 \begin{verbatim}
@@ -110,4 +110,35 @@ disp(a(3))
 \end{verbatim}
 You might also notice that Python used [], but MatLab uses ().  There are many differences between these two languages in terms of their syntax.  However, the general idea of what something like a while or for loop is, and what it should do, won't change between languages.  So, while you may have to learn the specific way to write something in a new programming language, once you've learned your basics in one language, it becomes much easier to pick up the next one.
 
+\section{Some Final Advice (From People Who are not Me)}
+
+When I started making this, I asked other people in the field for advice they thought would help a fledgling programmer.  Here are the answers:
+
+\begin{itemize}
+
+\item \href{https://www.python.org/dev/peps/pep-0020/}{The Zen of Python}
+\item Here is a link to a presentation by NPRE @ UIUC's Dr. Huff on \href{https://katyhuff.github.io/2018-12-22-mumbai/#/}{best practices}.  She also helps out with software carpentry lessons.
+\item Speaking of software carpentry, there are resources on that website far beyond what I linked.  There are more lessons on the lessons page, and additional resources to be found elsewhere on the site.
+\item "One thing I had to learn was to assume the user is intelligent. Some of the things that I have written in my free time have done excessive error catching which wasted a lot of time." -Nathan Bartholomew
+\item "python -m pdb" - Teddy Bae.  ((This is in reference to the Python debugger interface.  Google python pdb and you'll find more on it.))
+\item "Don't worry about having "necessary" skills, a lot of the fun is figuring things out. Everything you need to know can be found on the internet." - Sam Dotson
+\end{itemize}
+
+Some extra bits of advice I'd give:
+
+\begin{itemize}
+
+\item When programing, if you have a long and complicated formula to put in, break it up into smaller terms
+\item When making functions, having more functions that are smaller is better than one big function that does everything
+\item Looking at someone else's code usually sucks.  This will apply to looking at your own code after about two weeks.  Be kind to your friends, and to future you.  Give variables clear names.
+\item There is a format guideline for Python, \href{https://www.python.org/dev/peps/pep-0008/}{pep8}, that gives specific directions for things like whether or not you should put a space after a comma.   Most of these things can be fixed automatically when you're done with your program with an auto pep8 tool.  However, pep8 also limits your lines to being less than 80 characters.  Auto-pep8-ifiers can't intelligently split up lines of code for you in my experience, so I would recommend keeping the lines under 80 characters when you're first writing it.
+\item Consider making a playlist of music to zone out to while you work.  It makes things more enjoyable, and can help you tune out the rest of the world.
+\item For MatLab help, I've found that the MathWorks documentation is a great help.  For Python help, I would start by looking at the documentation for the function you're having trouble with.  If, instead, you're just trying to figure out how to do some specific, kinda weird thing with Python, my best advice is to google what you want to do, and read all the StackExchange topics that sound sorta like what you want to do.  It's helped me every time.  While we're at it:
+\item Make a StackExchange account.  It's super helpful.
+\item If you have a bug and you can't figure it out, try rubber duckie coding.  Sometimes, when a bit of code has a stubborn error you just can't solve, the best thing to do is to talk out your code, and it can be especially helpful to explain what your code is doing, line-by-line, to someone else.  But, if you're a nerd like me, you might also be a recluse, and not have a person on hand to explain 300 lines of python to.  That's where the rubber duckie comes in.  It's a friendly inanimate object you can explain your code to, and, if you get mad at it, you can squish it and the rubber duckie will be just fine.  The author of this paper is not responsible for damages caused by thrown rubber duckies.
+\end{itemize}
+
+\section{Credit Where Credit is Due}
+
+I've collected advice and tips from much of my personal experience learning to code here, but some of my friends and colleagues were kind enough to give some of their own advice, in the section above.  In addition, everything I learned starting out was with software carpentry, and while I've already linked to them a few times, I'd like to give another thanks to the folks that make all those free lessons.  You guys are the bee's knees.
 \end{document}
