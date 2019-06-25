@@ -5,4 +5,4 @@ To download this repo to your personal machine, go to the folder where you want 
 
 git clone https://github.com/ZoeRichter/WYSEadvice
 
-(There are hyperlinks in the PDF that aren't there if you view the PDF in the browser from GitHub, so I would recommend downloading it.
+(There are hyperlinks in the PDF that aren't there if you view the PDF in the browser from GitHub, so I would recommend downloading it.)
